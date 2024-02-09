@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(car.jpg);
+    background-size: cover;
+    position: fixed;
+}
+nav{
+    background: rgba(255, 255, 255, 0.1);
+    width: 100vw;
+    height: 70px;
+    backdrop-filter:blur(2px);
+}
+ul{
+    display: flex;
+    margin-left: 360px;
+    gap: 160px;
+   
+}
+ul li{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: none;
+    cursor: pointer;
+}
+ul li:hover{
+    color: red;
+}
+.digital{
+   text-align: center;
+   margin-top: 250px;
+   font-family: 'Protest Strike', sans-serif;
+}
+.digital h1{
+    font-size: 50px;
+    color: white;
+}
+.digital button{
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+}
